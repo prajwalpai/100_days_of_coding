@@ -6,9 +6,6 @@ from twilio.rest import Client
 local_datetime = datetime.datetime.now()
 local_datetime_timestamp = float(local_datetime.strftime("%s"))
 
-#export TWILIO_ACCOUNT_SID="AC7a2f1f6ae8943e1f5494d0ef0c8f2433"
-#export TWILIO_AUTH_TOKEN="48f230f5dc9e3c8c6bfbb8c12703ce76"
-
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
 auth_token = os.environ['TWILIO_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
