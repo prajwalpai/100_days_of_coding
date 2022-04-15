@@ -1,0 +1,26 @@
+    body{
+       background-color: #FCE38A;
+    }
+    hr{
+        width: 3%;
+        border-top: 5px dotted grey;
+        border-bottom: none;
+        }
+
+    h1{
+        color: #F38181;
+        font-size: 50px;
+        font-family: 'Arial', cursive;
+    }
+
+    h2{
+        color: #F38181;
+        font-size: 30px;
+        font-family: 'Arial', cursive;
+    }
+
+    h3{
+        color: #F38181;
+        font-size: 30px;
+        font-family: 'Arial', cursive;
+    }
